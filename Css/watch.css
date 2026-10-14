@@ -1,5 +1,56 @@
-/* first step ceeate a branch   */
+/* first step ceeate a branch   
+note  git pull origin main
+*/
 
 *{
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.box{
+    padding: 0 76px;
+}
+
+
+.header{
+    height: 84px;
+   /* border: 1px solid red; */
+   
+}
+.mid{
+    margin-top: 90px;
+    font-size: 80px;
+    color: #1d1d1d;
+}
+
+.image-section{
+    display: flex;
+    gap: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 12px;
+    -webkit-overflow-scrolling: touch;
+}
+
+
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    width: 184px;
+    border: 1px solid red;
+}
+
+.image{
+    height: auto;
+    flex: 0 0 48px;
+}
+
+.image-container .image img{
+    display: block;
+    width: 100%;
+    height: auto;
 }
