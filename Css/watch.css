@@ -9,7 +9,8 @@ note  git pull origin main
 }
 
 .box {
-  padding: 0 76px;
+  padding: 0 76px; 
+  
 }
 
 section .box {
